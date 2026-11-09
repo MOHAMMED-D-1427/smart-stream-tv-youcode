@@ -3,11 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/output.css">
+    <script src="https://kit.fontawesome.com/a034b0a078.js" crossorigin="anonymous"></script>
+
+    <script type="module" src="./js/app.js" defer></script>
+
     <title>Smart Stream TV</title>
 </head>
-<body>
-    <header>
-        
+<body class="bg-black text-gray-300">
+    <header class="w-11/12 mx-auto mt-2.5">
+        <p class="text-primary font-bold">Smart Stream TV</p>
+
     </header>
+
+    <main class="my-10">
+        <!-- ==================== Search -->
+        <div class="border-2 border-secondary w-fit rounded px-2 py-0.5 my-3.5 mx-auto">
+            <input placeholder="Search a channel" class="border-0 outline-none text-gray-400 ">
+            <i class="fas fa-search text-secondary"></i>
+        </div>
+        <!-- ==================== Channels & TV Player -->
+        <div class="flex justify-center gap-5">
+            <!-- ==> Active: bg-linear-to-r from-15%-black to-primary -->
+            <div class="text-sm bg-gray-950 w-fit px-4 py-7 rounded">
+                <select class="w-92.5 mb-3 p-1.5 rounded bg-black text-white outline-none" id="categories">
+                    <option>DOCUMENTAIRE</option>
+                    <option>DOCUMENTAIRE</option>
+                </select>
+                <table class="w-92.5 border border-gray-900" >
+                    <tbody>
+                        <tr class="border-b border-gray-900 px-1 chan-hover" >
+                            <td>&nbsp; 1</td><td><img src="https://placehold.co/60x60.png?text=Rhein" alt="Channel Logo" class="w-12.75"></td><td>DE - RHEIN DOKU FHD</td>
+                        </tr>
+                        <tr class="border-b border-gray-900 px-1 chan-hover">
+                            <td>&nbsp; 1127</td><td><img src="https://placehold.co/60x60.png?text=Mumbai" alt="Channel Logo" class="w-12.75"></td><td>IN - MUMBAI NEWS HD</td>
+                        </tr>
+                        <tr class="border-b border-gray-900 px-1 chan-hover">
+                            <td>&nbsp; 1127</td><td><img src="https://placehold.co/60x60.png?text=Mumbai" alt="Channel Logo" class="w-12.75"></td><td>IN - MUMBAI NEWS HD</td>
+                        </tr>
+                    </tbody>
+                </table>
+               
+            </div>
+            <div class="bg-gray-950 px-4 py-7 rounded w-112.5">
+                <p class="text-2xl font-bold text-center mb-3">Channel Player <i class="fas fa-play-circle"></i></p>
+                <div class="player mx-auto border-2 border-gray-900 w-80 h-40 flex justify-center items-center">
+                    <span class=""><i class="fas fa-video-slash"></i> No Channel is live</span>
+                </div>
+
+                <hr class="text-gray-900 my-9">
+
+                <div class="chan-info">
+                    <p class="text-[20px] font-bold pb-2.5">Channel Info</p>
+
+                    <div class="border border-secondary rounded">
+
+                        <table class="w-full">
+                            <tbody>
+                                <tr>
+                                    <td class="p-2">Name</td><td class="text-gray-700">DE - RHEIN DOKU FHD</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2">Program</td><td class="text-gray-700">Breaking News</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2">Number</td><td class="text-gray-700">1153</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2">Country</td><td class="text-gray-700">DE</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2">Start time</td><td class="text-gray-700">21:02</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2">Start end</td><td class="text-gray-700">21:57</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
