@@ -19,18 +19,18 @@
   {
     "id": "2",
     "channelNumber": "1371",
-    "name": "IT - MILANO MUSICA FHD",
+    "name": "IT - STAR NIGHT FHD",
     "country": "IT",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Milano",
-    "previewImage": "https://placehold.co/800x450.png?text=Milano%20Musica",
-    "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
-    "isLive": true,
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Star",
+    "previewImage": "https://placehold.co/800x450.png?text=Star%20Night",
+    "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+    "isLive": false,
     "epg": {
-      "currentProgram": "Top 50 Hits",
-      "startTime": "21:10",
-      "endTime": "21:55",
-      "progressPercentage": 73
+      "currentProgram": "Le Grand Show",
+      "startTime": "21:21",
+      "endTime": "21:51",
+      "progressPercentage": 50
     }
   },
   {
@@ -70,35 +70,35 @@
   {
     "id": "5",
     "channelNumber": "1769",
-    "name": "US - BROADWAY MUSIC HD",
+    "name": "US - CELEBRITY TALK 4K",
     "country": "US",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Broadway",
-    "previewImage": "https://placehold.co/800x450.png?text=Broadway%20Music",
-    "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Celebrity",
+    "previewImage": "https://placehold.co/800x450.png?text=Celebrity%20Talk",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Live Concert",
-      "startTime": "21:44",
-      "endTime": "23:44",
-      "progressPercentage": 38
+      "currentProgram": "Le Grand Show",
+      "startTime": "21:40",
+      "endTime": "23:25",
+      "progressPercentage": 72
     }
   },
   {
     "id": "6",
     "channelNumber": "1465",
-    "name": "UK - BRITPOP MUSIC HD",
+    "name": "UK - TALENT SHOW 4K",
     "country": "UK",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Britpop",
-    "previewImage": "https://placehold.co/800x450.png?text=Britpop%20Music",
-    "streamUrl": "https://test-streams.mux.dev/pts_shift/master.m3u8",
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Talent",
+    "previewImage": "https://placehold.co/800x450.png?text=Talent%20Show",
+    "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Top 50 Hits",
-      "startTime": "22:04",
-      "endTime": "23:49",
-      "progressPercentage": 33
+      "currentProgram": "Stand-Up Night",
+      "startTime": "19:11",
+      "endTime": "19:56",
+      "progressPercentage": 82
     }
   },
   {
@@ -138,18 +138,18 @@
   {
     "id": "9",
     "channelNumber": "1900",
-    "name": "BR - SAMBA MUSICA HD",
+    "name": "BR - GAME NIGHT HD",
     "country": "BR",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Samba",
-    "previewImage": "https://placehold.co/800x450.png?text=Samba%20Musica",
-    "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Game",
+    "previewImage": "https://placehold.co/800x450.png?text=Game%20Night",
+    "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Hit Mix",
-      "startTime": "19:14",
-      "endTime": "19:59",
-      "progressPercentage": 38
+      "currentProgram": "Les Stars en Direct",
+      "startTime": "21:26",
+      "endTime": "21:56",
+      "progressPercentage": 37
     }
   },
   {
@@ -325,18 +325,18 @@
   {
     "id": "20",
     "channelNumber": "1474",
-    "name": "KR - K-POP LIVE FHD",
+    "name": "KR - LAUGH TV FHD",
     "country": "KR",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=K-Pop",
-    "previewImage": "https://placehold.co/800x450.png?text=K-Pop%20Live",
-    "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
-    "isLive": false,
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Laugh",
+    "previewImage": "https://placehold.co/800x450.png?text=Laugh%20TV",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
     "epg": {
-      "currentProgram": "Rap Zone",
-      "startTime": "19:19",
-      "endTime": "21:19",
-      "progressPercentage": 48
+      "currentProgram": "Talent Academy",
+      "startTime": "19:48",
+      "endTime": "21:33",
+      "progressPercentage": 47
     }
   },
   {
@@ -427,18 +427,18 @@
   {
     "id": "26",
     "channelNumber": "1083",
-    "name": "AE - BURJ MUSIC FHD",
+    "name": "AE - COMEDY CLUB 4K",
     "country": "AE",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Burj",
-    "previewImage": "https://placehold.co/800x450.png?text=Burj%20Music",
-    "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
-    "isLive": true,
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Comedy",
+    "previewImage": "https://placehold.co/800x450.png?text=Comedy%20Club",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+    "isLive": false,
     "epg": {
-      "currentProgram": "Rap Zone",
-      "startTime": "21:32",
-      "endTime": "22:02",
-      "progressPercentage": 13
+      "currentProgram": "Late Night Show",
+      "startTime": "21:38",
+      "endTime": "22:08",
+      "progressPercentage": 27
     }
   },
   {
@@ -937,35 +937,35 @@
   {
     "id": "56",
     "channelNumber": "1487",
-    "name": "QA - DESERT MUSIC 4K",
+    "name": "QA - STAGE LIVE 4K",
     "country": "QA",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Desert",
-    "previewImage": "https://placehold.co/800x450.png?text=Desert%20Music",
-    "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Stage",
+    "previewImage": "https://placehold.co/800x450.png?text=Stage%20Live",
+    "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Oriental Nights",
-      "startTime": "22:16",
-      "endTime": "00:16",
-      "progressPercentage": 9
+      "currentProgram": "Téléréalité : La Villa",
+      "startTime": "21:29",
+      "endTime": "22:29",
+      "progressPercentage": 52
     }
   },
   {
     "id": "57",
     "channelNumber": "1590",
-    "name": "TR - BOSPHORUS MUZIK FHD",
+    "name": "TR - PRIME SHOW HD",
     "country": "TR",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Bosphorus",
-    "previewImage": "https://placehold.co/800x450.png?text=Bosphorus%20Muzik",
-    "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Prime",
+    "previewImage": "https://placehold.co/800x450.png?text=Prime%20Show",
+    "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Live Concert",
-      "startTime": "21:58",
-      "endTime": "23:43",
-      "progressPercentage": 49
+      "currentProgram": "Talent Academy",
+      "startTime": "22:19",
+      "endTime": "00:04",
+      "progressPercentage": 31
     }
   },
   {
@@ -1107,18 +1107,18 @@
   {
     "id": "66",
     "channelNumber": "1064",
-    "name": "FR - MUSIC BOX FHD",
+    "name": "FR - TALK LIVE 4K",
     "country": "FR",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Music",
-    "previewImage": "https://placehold.co/800x450.png?text=Music%20Box",
-    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Talk",
+    "previewImage": "https://placehold.co/800x450.png?text=Talk%20Live",
+    "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Rap Zone",
-      "startTime": "20:47",
-      "endTime": "22:47",
-      "progressPercentage": 42
+      "currentProgram": "Talk-Show Live",
+      "startTime": "22:06",
+      "endTime": "23:01",
+      "progressPercentage": 55
     }
   },
   {
@@ -1209,18 +1209,18 @@
   {
     "id": "72",
     "channelNumber": "1389",
-    "name": "DZ - KABYLIE MUSIC HD",
+    "name": "DZ - VARIETY SHOW 4K",
     "country": "DZ",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Kabylie",
-    "previewImage": "https://placehold.co/800x450.png?text=Kabylie%20Music",
-    "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
-    "isLive": true,
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Variety",
+    "previewImage": "https://placehold.co/800x450.png?text=Variety%20Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": false,
     "epg": {
-      "currentProgram": "Hit Mix",
-      "startTime": "20:56",
-      "endTime": "21:41",
-      "progressPercentage": 49
+      "currentProgram": "Téléréalité : La Villa",
+      "startTime": "19:42",
+      "endTime": "20:42",
+      "progressPercentage": 83
     }
   },
   {
@@ -1260,18 +1260,18 @@
   {
     "id": "75",
     "channelNumber": "1205",
-    "name": "IN - DELHI MUSIC HD",
+    "name": "IN - SHOW MAX FHD",
     "country": "IN",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Delhi",
-    "previewImage": "https://placehold.co/800x450.png?text=Delhi%20Music",
-    "streamUrl": "https://test-streams.mux.dev/pts_shift/master.m3u8",
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Show",
+    "previewImage": "https://placehold.co/800x450.png?text=Show%20Max",
+    "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Top 50 Hits",
-      "startTime": "19:39",
-      "endTime": "21:09",
-      "progressPercentage": 36
+      "currentProgram": "Les Stars en Direct",
+      "startTime": "19:19",
+      "endTime": "21:04",
+      "progressPercentage": 94
     }
   },
   {
@@ -1413,18 +1413,18 @@
   {
     "id": "84",
     "channelNumber": "1607",
-    "name": "EG - EGYPT MUSIC HD",
+    "name": "EG - FUN TIME 4K",
     "country": "EG",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Egypt",
-    "previewImage": "https://placehold.co/800x450.png?text=Egypt%20Music",
-    "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Fun",
+    "previewImage": "https://placehold.co/800x450.png?text=Fun%20Time",
+    "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Live Concert",
-      "startTime": "20:02",
-      "endTime": "20:57",
-      "progressPercentage": 13
+      "currentProgram": "Téléréalité : La Villa",
+      "startTime": "20:27",
+      "endTime": "21:22",
+      "progressPercentage": 84
     }
   },
   {
@@ -1600,18 +1600,18 @@
   {
     "id": "95",
     "channelNumber": "1281",
-    "name": "US - COUNTRY LIFE HD",
+    "name": "US - REALITY ZONE 4K",
     "country": "US",
-    "category": "MUSIQUE",
-    "logo": "https://placehold.co/60x60.png?text=Country",
-    "previewImage": "https://placehold.co/800x450.png?text=Country%20Life",
-    "streamUrl": "https://test-streams.mux.dev/pts_shift/master.m3u8",
+    "category": "DIVERTISSEMENT",
+    "logo": "https://placehold.co/60x60.png?text=Reality",
+    "previewImage": "https://placehold.co/800x450.png?text=Reality%20Zone",
+    "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Hit Mix",
-      "startTime": "21:21",
-      "endTime": "21:51",
-      "progressPercentage": 37
+      "currentProgram": "Talent Academy",
+      "startTime": "19:17",
+      "endTime": "20:17",
+      "progressPercentage": 92
     }
   },
   {
