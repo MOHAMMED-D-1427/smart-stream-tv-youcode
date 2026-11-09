@@ -21,9 +21,6 @@
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --font-weight-bold: 700;
-    --radius-2xl: 1rem;
-    --default-transition-duration: 150ms;
-    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --color-primary: #2d00cf;
@@ -203,6 +200,9 @@
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
+  .h-screen {
+    height: 100vh;
+  }
   .w-11\/12 {
     width: calc(11 / 12 * 100%);
   }
@@ -228,7 +228,14 @@
     background-color: #2d00cf;
     opacity: 0.7;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  .scrollbar-thumb-primary {
+    --tw-scrollbar-thumb: var(--color-primary);
+    scrollbar-color: var(--tw-scrollbar-thumb) var(--tw-scrollbar-track);
   }
   .items-center {
     align-items: center;
@@ -238,6 +245,9 @@
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
+  }
+  .overflow-y-scroll {
+    overflow-y: scroll;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -349,6 +359,16 @@
     outline-style: none;
   }
 }
+@property --tw-scrollbar-thumb {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+@property --tw-scrollbar-track {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
@@ -403,6 +423,8 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: block))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-scrollbar-thumb: #0000;
+      --tw-scrollbar-track: #0000;
       --tw-border-style: solid;
       --tw-gradient-position: initial;
       --tw-gradient-from: #0000;
