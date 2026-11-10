@@ -4,13 +4,13 @@
     "channelNumber": "1253",
     "name": "ES - NOTICIAS 24 4K",
     "country": "ES",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Noticias",
     "previewImage": "https://placehold.co/800x450.png?text=Noticias%2024",
     "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Débat du soir",
+      "currentProgram": "Evening Debate",
       "startTime": "20:07",
       "endTime": "21:37",
       "progressPercentage": 84
@@ -21,13 +21,13 @@
     "channelNumber": "1371",
     "name": "IT - STAR NIGHT FHD",
     "country": "IT",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Star",
     "previewImage": "https://placehold.co/800x450.png?text=Star%20Night",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Le Grand Show",
+      "currentProgram": "The Big Show",
       "startTime": "21:21",
       "endTime": "21:51",
       "progressPercentage": 50
@@ -38,7 +38,7 @@
     "channelNumber": "1157",
     "name": "QA - QATAR LIVE FHD",
     "country": "QA",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Qatar",
     "previewImage": "https://placehold.co/800x450.png?text=Qatar%20Live",
     "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
@@ -61,7 +61,7 @@
     "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Comédie romantique",
+      "currentProgram": "Romantic Comedy",
       "startTime": "21:21",
       "endTime": "22:16",
       "progressPercentage": 4
@@ -72,13 +72,13 @@
     "channelNumber": "1769",
     "name": "US - CELEBRITY TALK 4K",
     "country": "US",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Celebrity",
     "previewImage": "https://placehold.co/800x450.png?text=Celebrity%20Talk",
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Le Grand Show",
+      "currentProgram": "The Big Show",
       "startTime": "21:40",
       "endTime": "23:25",
       "progressPercentage": 72
@@ -89,7 +89,7 @@
     "channelNumber": "1465",
     "name": "UK - TALENT SHOW 4K",
     "country": "UK",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Talent",
     "previewImage": "https://placehold.co/800x450.png?text=Talent%20Show",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
@@ -123,13 +123,13 @@
     "channelNumber": "1553",
     "name": "MA - MAROC KIDS 4K",
     "country": "MA",
-    "category": "ENFANTS",
+    "category": "KIDS",
     "logo": "https://placehold.co/60x60.png?text=Maroc",
     "previewImage": "https://placehold.co/800x450.png?text=Maroc%20Kids",
     "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Super Héros Junior",
+      "currentProgram": "Junior Superheroes",
       "startTime": "21:33",
       "endTime": "22:03",
       "progressPercentage": 40
@@ -140,13 +140,13 @@
     "channelNumber": "1900",
     "name": "BR - GAME NIGHT HD",
     "country": "BR",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Game",
     "previewImage": "https://placehold.co/800x450.png?text=Game%20Night",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Les Stars en Direct",
+      "currentProgram": "Stars Live",
       "startTime": "21:26",
       "endTime": "21:56",
       "progressPercentage": 37
@@ -174,13 +174,13 @@
     "channelNumber": "1970",
     "name": "FR - PLANETE DOCS 4K",
     "country": "FR",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Planete",
     "previewImage": "https://placehold.co/800x450.png?text=Planete%20Docs",
     "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Planète Terre",
+      "currentProgram": "Planet Earth",
       "startTime": "20:07",
       "endTime": "20:52",
       "progressPercentage": 78
@@ -191,13 +191,13 @@
     "channelNumber": "1774",
     "name": "BR - AMAZONIA DOCS FHD",
     "country": "BR",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Amazonia",
     "previewImage": "https://placehold.co/800x450.png?text=Amazonia%20Docs",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Planète Terre",
+      "currentProgram": "Planet Earth",
       "startTime": "20:19",
       "endTime": "22:04",
       "progressPercentage": 50
@@ -214,7 +214,7 @@
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Rencontres",
+      "currentProgram": "Encounters",
       "startTime": "19:57",
       "endTime": "20:42",
       "progressPercentage": 13
@@ -231,7 +231,7 @@
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Film du soir",
+      "currentProgram": "Evening Movie",
       "startTime": "19:01",
       "endTime": "19:46",
       "progressPercentage": 13
@@ -282,7 +282,7 @@
     "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Thriller Nocturne",
+      "currentProgram": "Night Thriller",
       "startTime": "20:50",
       "endTime": "22:35",
       "progressPercentage": 45
@@ -299,7 +299,7 @@
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Film du soir",
+      "currentProgram": "Evening Movie",
       "startTime": "20:43",
       "endTime": "21:13",
       "progressPercentage": 83
@@ -316,7 +316,7 @@
     "streamUrl": "https://test-streams.mux.dev/pts_shift/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Championnat Live",
+      "currentProgram": "Championship Live",
       "startTime": "21:17",
       "endTime": "22:02",
       "progressPercentage": 67
@@ -327,7 +327,7 @@
     "channelNumber": "1474",
     "name": "KR - LAUGH TV FHD",
     "country": "KR",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Laugh",
     "previewImage": "https://placehold.co/800x450.png?text=Laugh%20TV",
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
@@ -344,13 +344,13 @@
     "channelNumber": "1857",
     "name": "TR - ANADOLU HABER HD",
     "country": "TR",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Anadolu",
     "previewImage": "https://placehold.co/800x450.png?text=Anadolu%20Haber",
     "streamUrl": "https://test-streams.mux.dev/pts_shift/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Débat du soir",
+      "currentProgram": "Evening Debate",
       "startTime": "22:12",
       "endTime": "22:42",
       "progressPercentage": 30
@@ -367,7 +367,7 @@
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Art & Patrimoine",
+      "currentProgram": "Art & Heritage",
       "startTime": "19:42",
       "endTime": "20:12",
       "progressPercentage": 47
@@ -378,13 +378,13 @@
     "channelNumber": "1949",
     "name": "DZ - ALGER TV FHD",
     "country": "DZ",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Alger",
     "previewImage": "https://placehold.co/800x450.png?text=Alger%20TV",
     "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Mystères de l'océan",
+      "currentProgram": "Mysteries of the Ocean",
       "startTime": "20:48",
       "endTime": "21:43",
       "progressPercentage": 84
@@ -401,7 +401,7 @@
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Match en direct",
+      "currentProgram": "Live Match",
       "startTime": "22:08",
       "endTime": "23:38",
       "progressPercentage": 79
@@ -418,7 +418,7 @@
     "streamUrl": "https://test-streams.mux.dev/pts_shift/master.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Rencontres",
+      "currentProgram": "Encounters",
       "startTime": "21:08",
       "endTime": "22:08",
       "progressPercentage": 93
@@ -429,7 +429,7 @@
     "channelNumber": "1083",
     "name": "AE - COMEDY CLUB 4K",
     "country": "AE",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Comedy",
     "previewImage": "https://placehold.co/800x450.png?text=Comedy%20Club",
     "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
@@ -452,7 +452,7 @@
     "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Résumé de la journée",
+      "currentProgram": "Daily Recap",
       "startTime": "21:38",
       "endTime": "22:08",
       "progressPercentage": 13
@@ -480,13 +480,13 @@
     "channelNumber": "1688",
     "name": "FR - NATURE WILD HD",
     "country": "FR",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Nature",
     "previewImage": "https://placehold.co/800x450.png?text=Nature%20Wild",
     "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Planète Terre",
+      "currentProgram": "Planet Earth",
       "startTime": "20:20",
       "endTime": "21:20",
       "progressPercentage": 83
@@ -497,13 +497,13 @@
     "channelNumber": "1577",
     "name": "AE - DESERT DOCS HD",
     "country": "AE",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Desert",
     "previewImage": "https://placehold.co/800x450.png?text=Desert%20Docs",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Mystères de l'océan",
+      "currentProgram": "Mysteries of the Ocean",
       "startTime": "21:17",
       "endTime": "21:47",
       "progressPercentage": 27
@@ -520,7 +520,7 @@
     "streamUrl": "https://test-streams.mux.dev/pts_shift/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Championnat Live",
+      "currentProgram": "Championship Live",
       "startTime": "20:34",
       "endTime": "21:19",
       "progressPercentage": 44
@@ -531,13 +531,13 @@
     "channelNumber": "1627",
     "name": "QA - PEARL KIDS 4K",
     "country": "QA",
-    "category": "ENFANTS",
+    "category": "KIDS",
     "logo": "https://placehold.co/60x60.png?text=Pearl",
     "previewImage": "https://placehold.co/800x450.png?text=Pearl%20Kids",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Les Aventures de Pixel",
+      "currentProgram": "The Adventures of Pixel",
       "startTime": "21:50",
       "endTime": "22:20",
       "progressPercentage": 93
@@ -571,7 +571,7 @@
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Championnat Live",
+      "currentProgram": "Championship Live",
       "startTime": "21:55",
       "endTime": "22:40",
       "progressPercentage": 93
@@ -582,13 +582,13 @@
     "channelNumber": "1928",
     "name": "DE - BERLIN NACHRICHTEN HD",
     "country": "DE",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Berlin",
     "previewImage": "https://placehold.co/800x450.png?text=Berlin%20Nachrichten",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Edition Spéciale",
+      "currentProgram": "Special Edition",
       "startTime": "21:42",
       "endTime": "22:12",
       "progressPercentage": 50
@@ -616,13 +616,13 @@
     "channelNumber": "1575",
     "name": "QA - DOHA DOCS HD",
     "country": "QA",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Doha",
     "previewImage": "https://placehold.co/800x450.png?text=Doha%20Docs",
     "streamUrl": "https://test-streams.mux.dev/pts_shift/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Mystères de l'océan",
+      "currentProgram": "Mysteries of the Ocean",
       "startTime": "19:19",
       "endTime": "19:49",
       "progressPercentage": 80
@@ -639,7 +639,7 @@
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Match en direct",
+      "currentProgram": "Live Match",
       "startTime": "20:50",
       "endTime": "21:35",
       "progressPercentage": 22
@@ -741,7 +741,7 @@
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Récitation du Coran",
+      "currentProgram": "Quran Recitation",
       "startTime": "19:49",
       "endTime": "21:34",
       "progressPercentage": 50
@@ -803,13 +803,13 @@
     "channelNumber": "1261",
     "name": "SA - SAUDI NEWS HD",
     "country": "SA",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Saudi",
     "previewImage": "https://placehold.co/800x450.png?text=Saudi%20News",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Le Journal",
+      "currentProgram": "The News",
       "startTime": "20:51",
       "endTime": "22:36",
       "progressPercentage": 2
@@ -826,7 +826,7 @@
     "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Classique du cinéma",
+      "currentProgram": "Classic Cinema",
       "startTime": "20:20",
       "endTime": "21:50",
       "progressPercentage": 96
@@ -843,7 +843,7 @@
     "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Comédie romantique",
+      "currentProgram": "Romantic Comedy",
       "startTime": "20:44",
       "endTime": "22:29",
       "progressPercentage": 41
@@ -860,7 +860,7 @@
     "streamUrl": "https://test-streams.mux.dev/pts_shift/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "La Dynastie - S03E02",
+      "currentProgram": "The Dynasty - S03E02",
       "startTime": "21:50",
       "endTime": "22:50",
       "progressPercentage": 43
@@ -871,13 +871,13 @@
     "channelNumber": "1416",
     "name": "IN - INDIA KIDS 4K",
     "country": "IN",
-    "category": "ENFANTS",
+    "category": "KIDS",
     "logo": "https://placehold.co/60x60.png?text=India",
     "previewImage": "https://placehold.co/800x450.png?text=India%20Kids",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Petits Explorateurs",
+      "currentProgram": "Little Explorers",
       "startTime": "19:00",
       "endTime": "21:00",
       "progressPercentage": 33
@@ -894,7 +894,7 @@
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Thriller Nocturne",
+      "currentProgram": "Night Thriller",
       "startTime": "20:53",
       "endTime": "21:53",
       "progressPercentage": 50
@@ -905,13 +905,13 @@
     "channelNumber": "1174",
     "name": "US - METRO NEWS HD",
     "country": "US",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Metro",
     "previewImage": "https://placehold.co/800x450.png?text=Metro%20News",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Météo & Info",
+      "currentProgram": "Weather & News",
       "startTime": "21:11",
       "endTime": "22:06",
       "progressPercentage": 80
@@ -928,7 +928,7 @@
     "streamUrl": "https://test-streams.mux.dev/pts_shift/master.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Saveurs du monde",
+      "currentProgram": "Flavors of the World",
       "startTime": "22:26",
       "endTime": "23:11",
       "progressPercentage": 31
@@ -939,13 +939,13 @@
     "channelNumber": "1487",
     "name": "QA - STAGE LIVE 4K",
     "country": "QA",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Stage",
     "previewImage": "https://placehold.co/800x450.png?text=Stage%20Live",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Téléréalité : La Villa",
+      "currentProgram": "Reality TV: The Villa",
       "startTime": "21:29",
       "endTime": "22:29",
       "progressPercentage": 52
@@ -956,7 +956,7 @@
     "channelNumber": "1590",
     "name": "TR - PRIME SHOW HD",
     "country": "TR",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Prime",
     "previewImage": "https://placehold.co/800x450.png?text=Prime%20Show",
     "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
@@ -979,7 +979,7 @@
     "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Saveurs du monde",
+      "currentProgram": "Flavors of the World",
       "startTime": "22:17",
       "endTime": "00:17",
       "progressPercentage": 96
@@ -990,13 +990,13 @@
     "channelNumber": "1181",
     "name": "DE - KINDER KANAL 4K",
     "country": "DE",
-    "category": "ENFANTS",
+    "category": "KIDS",
     "logo": "https://placehold.co/60x60.png?text=Kinder",
     "previewImage": "https://placehold.co/800x450.png?text=Kinder%20Kanal",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Les Aventures de Pixel",
+      "currentProgram": "The Adventures of Pixel",
       "startTime": "19:12",
       "endTime": "20:12",
       "progressPercentage": 62
@@ -1041,7 +1041,7 @@
     "channelNumber": "1461",
     "name": "UK - LONDON NEWS HD",
     "country": "UK",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=London",
     "previewImage": "https://placehold.co/800x450.png?text=London%20News",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
@@ -1058,13 +1058,13 @@
     "channelNumber": "1497",
     "name": "UK - THAMES DOCS FHD",
     "country": "UK",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Thames",
     "previewImage": "https://placehold.co/800x450.png?text=Thames%20Docs",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Mystères de l'océan",
+      "currentProgram": "Mysteries of the Ocean",
       "startTime": "20:52",
       "endTime": "21:47",
       "progressPercentage": 11
@@ -1092,13 +1092,13 @@
     "channelNumber": "1724",
     "name": "EG - CAIRO KIDS FHD",
     "country": "EG",
-    "category": "ENFANTS",
+    "category": "KIDS",
     "logo": "https://placehold.co/60x60.png?text=Cairo",
     "previewImage": "https://placehold.co/800x450.png?text=Cairo%20Kids",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Le Monde Magique",
+      "currentProgram": "The Magical World",
       "startTime": "20:46",
       "endTime": "21:16",
       "progressPercentage": 50
@@ -1109,7 +1109,7 @@
     "channelNumber": "1064",
     "name": "FR - TALK LIVE 4K",
     "country": "FR",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Talk",
     "previewImage": "https://placehold.co/800x450.png?text=Talk%20Live",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
@@ -1143,13 +1143,13 @@
     "channelNumber": "1552",
     "name": "SA - HIJAZ DOCS 4K",
     "country": "SA",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Hijaz",
     "previewImage": "https://placehold.co/800x450.png?text=Hijaz%20Docs",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Mystères de l'océan",
+      "currentProgram": "Mysteries of the Ocean",
       "startTime": "21:34",
       "endTime": "23:34",
       "progressPercentage": 97
@@ -1160,13 +1160,13 @@
     "channelNumber": "1447",
     "name": "SA - SAUDI KIDS FHD",
     "country": "SA",
-    "category": "ENFANTS",
+    "category": "KIDS",
     "logo": "https://placehold.co/60x60.png?text=Saudi",
     "previewImage": "https://placehold.co/800x450.png?text=Saudi%20Kids",
     "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Le Monde Magique",
+      "currentProgram": "The Magical World",
       "startTime": "20:39",
       "endTime": "21:09",
       "progressPercentage": 40
@@ -1177,13 +1177,13 @@
     "channelNumber": "1942",
     "name": "MA - AL AOULA FHD",
     "country": "MA",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Al%20Aoula",
     "previewImage": "https://placehold.co/800x450.png?text=Al%20Aoula",
     "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Grandes Civilisations",
+      "currentProgram": "Great Civilizations",
       "startTime": "21:16",
       "endTime": "22:46",
       "progressPercentage": 6
@@ -1194,13 +1194,13 @@
     "channelNumber": "1028",
     "name": "AE - EMIRATES NEWS HD",
     "country": "AE",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Emirates",
     "previewImage": "https://placehold.co/800x450.png?text=Emirates%20News",
     "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Edition Spéciale",
+      "currentProgram": "Special Edition",
       "startTime": "20:49",
       "endTime": "22:34",
       "progressPercentage": 18
@@ -1211,13 +1211,13 @@
     "channelNumber": "1389",
     "name": "DZ - VARIETY SHOW 4K",
     "country": "DZ",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Variety",
     "previewImage": "https://placehold.co/800x450.png?text=Variety%20Show",
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Téléréalité : La Villa",
+      "currentProgram": "Reality TV: The Villa",
       "startTime": "19:42",
       "endTime": "20:42",
       "progressPercentage": 83
@@ -1228,13 +1228,13 @@
     "channelNumber": "1285",
     "name": "JP - TOKYO ANIME FHD",
     "country": "JP",
-    "category": "ENFANTS",
+    "category": "KIDS",
     "logo": "https://placehold.co/60x60.png?text=Tokyo",
     "previewImage": "https://placehold.co/800x450.png?text=Tokyo%20Anime",
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Les Aventures de Pixel",
+      "currentProgram": "The Adventures of Pixel",
       "startTime": "19:20",
       "endTime": "20:15",
       "progressPercentage": 58
@@ -1245,7 +1245,7 @@
     "channelNumber": "1975",
     "name": "BR - NOTICIAS BRASIL HD",
     "country": "BR",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Noticias",
     "previewImage": "https://placehold.co/800x450.png?text=Noticias%20Brasil",
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
@@ -1262,13 +1262,13 @@
     "channelNumber": "1205",
     "name": "IN - SHOW MAX FHD",
     "country": "IN",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Show",
     "previewImage": "https://placehold.co/800x450.png?text=Show%20Max",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Les Stars en Direct",
+      "currentProgram": "Stars Live",
       "startTime": "19:19",
       "endTime": "21:04",
       "progressPercentage": 94
@@ -1285,7 +1285,7 @@
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Comédie romantique",
+      "currentProgram": "Romantic Comedy",
       "startTime": "21:59",
       "endTime": "22:59",
       "progressPercentage": 30
@@ -1302,7 +1302,7 @@
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Film du soir",
+      "currentProgram": "Evening Movie",
       "startTime": "22:29",
       "endTime": "00:29",
       "progressPercentage": 18
@@ -1336,7 +1336,7 @@
     "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Championnat Live",
+      "currentProgram": "Championship Live",
       "startTime": "21:40",
       "endTime": "23:25",
       "progressPercentage": 31
@@ -1364,13 +1364,13 @@
     "channelNumber": "1678",
     "name": "FR - DISCOVERY ID HD",
     "country": "FR",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Discovery",
     "previewImage": "https://placehold.co/800x450.png?text=Discovery%20ID",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "Enquête historique",
+      "currentProgram": "Historical Investigation",
       "startTime": "21:09",
       "endTime": "21:39",
       "progressPercentage": 73
@@ -1381,13 +1381,13 @@
     "channelNumber": "1843",
     "name": "KR - KOREA NEWS FHD",
     "country": "KR",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Korea",
     "previewImage": "https://placehold.co/800x450.png?text=Korea%20News",
     "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Débat du soir",
+      "currentProgram": "Evening Debate",
       "startTime": "20:50",
       "endTime": "21:20",
       "progressPercentage": 43
@@ -1404,7 +1404,7 @@
     "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Thriller Nocturne",
+      "currentProgram": "Night Thriller",
       "startTime": "20:09",
       "endTime": "21:54",
       "progressPercentage": 76
@@ -1415,13 +1415,13 @@
     "channelNumber": "1607",
     "name": "EG - FUN TIME 4K",
     "country": "EG",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Fun",
     "previewImage": "https://placehold.co/800x450.png?text=Fun%20Time",
     "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Téléréalité : La Villa",
+      "currentProgram": "Reality TV: The Villa",
       "startTime": "20:27",
       "endTime": "21:22",
       "progressPercentage": 84
@@ -1438,7 +1438,7 @@
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": false,
     "epg": {
-      "currentProgram": "La Dynastie - S03E02",
+      "currentProgram": "The Dynasty - S03E02",
       "startTime": "21:51",
       "endTime": "23:21",
       "progressPercentage": 56
@@ -1455,7 +1455,7 @@
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Comédie romantique",
+      "currentProgram": "Romantic Comedy",
       "startTime": "20:30",
       "endTime": "21:15",
       "progressPercentage": 40
@@ -1506,7 +1506,7 @@
     "streamUrl": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Classique du cinéma",
+      "currentProgram": "Classic Cinema",
       "startTime": "20:15",
       "endTime": "20:45",
       "progressPercentage": 30
@@ -1517,13 +1517,13 @@
     "channelNumber": "1680",
     "name": "ES - IBERIA KIDS 4K",
     "country": "ES",
-    "category": "ENFANTS",
+    "category": "KIDS",
     "logo": "https://placehold.co/60x60.png?text=Iberia",
     "previewImage": "https://placehold.co/800x450.png?text=Iberia%20Kids",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Petits Explorateurs",
+      "currentProgram": "Little Explorers",
       "startTime": "21:01",
       "endTime": "21:56",
       "progressPercentage": 67
@@ -1534,13 +1534,13 @@
     "channelNumber": "1339",
     "name": "TN - TUNIS NEWS HD",
     "country": "TN",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Tunis",
     "previewImage": "https://placehold.co/800x450.png?text=Tunis%20News",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Le Journal",
+      "currentProgram": "The News",
       "startTime": "20:56",
       "endTime": "22:41",
       "progressPercentage": 34
@@ -1568,7 +1568,7 @@
     "channelNumber": "1284",
     "name": "UK - KIDS UK 4K",
     "country": "UK",
-    "category": "ENFANTS",
+    "category": "KIDS",
     "logo": "https://placehold.co/60x60.png?text=Kids",
     "previewImage": "https://placehold.co/800x450.png?text=Kids%20UK",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
@@ -1602,7 +1602,7 @@
     "channelNumber": "1281",
     "name": "US - REALITY ZONE 4K",
     "country": "US",
-    "category": "DIVERTISSEMENT",
+    "category": "ENTERTAINMENT",
     "logo": "https://placehold.co/60x60.png?text=Reality",
     "previewImage": "https://placehold.co/800x450.png?text=Reality%20Zone",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
@@ -1619,7 +1619,7 @@
     "channelNumber": "1106",
     "name": "IN - MUMBAI NEWS HD",
     "country": "IN",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Mumbai",
     "previewImage": "https://placehold.co/800x450.png?text=Mumbai%20News",
     "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
@@ -1642,7 +1642,7 @@
     "streamUrl": "https://test-streams.mux.dev/test_001/stream.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Le Grand Match",
+      "currentProgram": "The Big Match",
       "startTime": "21:02",
       "endTime": "21:57",
       "progressPercentage": 16
@@ -1653,7 +1653,7 @@
     "channelNumber": "1591",
     "name": "FR - INFO 24 HD",
     "country": "FR",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Info",
     "previewImage": "https://placehold.co/800x450.png?text=Info%2024",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
@@ -1670,13 +1670,13 @@
     "channelNumber": "1122",
     "name": "EG - CAIRO NEWS 4K",
     "country": "EG",
-    "category": "INFO",
+    "category": "NEWS",
     "logo": "https://placehold.co/60x60.png?text=Cairo",
     "previewImage": "https://placehold.co/800x450.png?text=Cairo%20News",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Débat du soir",
+      "currentProgram": "Evening Debate",
       "startTime": "20:46",
       "endTime": "22:46",
       "progressPercentage": 66
@@ -1687,13 +1687,13 @@
     "channelNumber": "1462",
     "name": "DE - RHEIN DOKU FHD",
     "country": "DE",
-    "category": "DOCUMENTAIRE",
+    "category": "DOCUMENTARY",
     "logo": "https://placehold.co/60x60.png?text=Rhein",
     "previewImage": "https://placehold.co/800x450.png?text=Rhein%20Doku",
     "streamUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Habitations en péril",
+      "currentProgram": "Endangered Homes",
       "startTime": "21:30",
       "endTime": "22:25",
       "progressPercentage": 53
