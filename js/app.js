@@ -1,4 +1,5 @@
 import { getChannels } from "../services/api.js";
+import { filterChannels } from "./filter.js";
 import { searchChannels } from "./search.js";
 import { showChannels } from "./ui.js";
 
@@ -11,3 +12,5 @@ getChannels()
 showChannels(channels)
 
 searchChannels()
+
+filterChannels()
