@@ -14,6 +14,15 @@ function showChannels(){
     })
 }
 
-
+// Category	Channels
+// SPORT	21
+// CINEMA	17
+// INFO	14
+// DIVERTISSEMENT	13
+// DOCUMENTAIRE	11
+// ENFANTS	9
+// SERIES	9
+// CULTURE	5
+// RELIGION	1
 
 export {showChannels}

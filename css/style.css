@@ -13,3 +13,8 @@
         transition: 0.3s;
     }
 }
+
+@utility active{
+        /* bg-linear-to-r from-15%-black to-primary */
+    background: linear-gradient(45deg, black 34%, #2d00cf)
+}
