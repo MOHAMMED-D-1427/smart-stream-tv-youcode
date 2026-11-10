@@ -21,8 +21,6 @@
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --font-weight-bold: 700;
-    --default-transition-duration: 150ms;
-    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --color-primary: #2d00cf;
@@ -199,6 +197,9 @@
   .flex {
     display: flex;
   }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
@@ -222,9 +223,6 @@
   }
   .w-112\.5 {
     width: calc(var(--spacing) * 112.5);
-  }
-  .w-\[150px\] {
-    width: 150px;
   }
   .w-fit {
     width: fit-content;
