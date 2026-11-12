@@ -20,27 +20,35 @@
     </header>
 
     <main class="my-10">
-        <!-- ==================== Search -->
-        <div class="border-2 border-secondary w-fit rounded px-2 py-0.5 my-3.5 mx-auto">
-            <input id="search" placeholder="Search a channel" class="border-0 outline-none text-gray-400 ">
-            <i class="fas fa-search text-secondary"></i>
-        </div>
+        
         <!-- ==================== Channels & TV Player -->
         <div class="flex justify-center gap-5 ">
             <!-- ==> Active: bg-linear-to-r from-15%-black to-primary -->
-            <div class="text-sm bg-gray-950 w-fit px-4 py-7 rounded h-screen overflow-y-scroll scrollbar-thumb-primary scrollbar-thin">
-                <select class="w-92.5 mb-3 p-1.5 rounded bg-black text-white outline-none" id="categories">
-                    <option value="">Filter by categories</option>
-                    <option value="DOCUMENTARY">DOCUMENTARY</option>
-                    <option value="RELIGION">RELIGION</option>
-                    <option value="NEWS">NEWS</option>
-                    <option value="CULTURE">CULTURE</option>
-                    <option value="KIDS">KIDS</option>
-                    <option value="ENTERTAINMENT">ENTERTAINMENT</option>
-                    <option value="CINEMA">CINEMA</option>
-                    <option value="SPORT">SPORT</option>
-                </select>
-                <table class="w-92.5 border border-gray-900" >
+            <div class="text-sm bg-gray-950 w-fit px-4 pb-7 relative rounded h-screen overflow-y-scroll scrollbar-thumb-primary scrollbar-thin">
+                    <!-- top: -28px; -->
+    <!-- padding-top: 11px; -->
+                <div class="s-f-container sticky top-0 z-10 pt-2.5 bg-gray-950">
+                    <!-- ==================== Search -->
+                    <div class="border-2 border-secondary w-full rounded px-2 py-0.5 my-3.5 mx-auto">
+                        <input id="search" placeholder="Search a channel" class="border-0 outline-none text-gray-400 w-full p-1">
+                            <i class="fas fa-search text-secondary"></i>
+                        </div>
+                    <!-- ==================== Filter -->
+    
+                    <select class="w-92.5 mb-3 p-1.5 rounded bg-black text-white outline-none" id="categories">
+                        <option value="">All categories</option>
+                        <option value="DOCUMENTARY">DOCUMENTARY</option>
+                        <option value="RELIGION">RELIGION</option>
+                        <option value="NEWS">NEWS</option>
+                        <option value="CULTURE">CULTURE</option>
+                        <option value="KIDS">KIDS</option>
+                        <option value="ENTERTAINMENT">ENTERTAINMENT</option>
+                        <option value="CINEMA">CINEMA</option>
+                        <option value="SPORT">SPORT</option>
+                    </select>
+                </div>
+
+                <table class="w-92.5 border border-gray-900 " >
                     <tbody id="channels">
                         <tr class="border-b border-gray-900 px-1 chan-hover">
                             <td>&nbsp; 1127</td><td><img src="https://placehold.co/60x60.png?text=Mumbai" alt="Channel Logo" class="w-12.75"></td><td>IN - MUMBAI NEWS HD</td>
