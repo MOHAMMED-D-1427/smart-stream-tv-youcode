@@ -25,14 +25,14 @@
         <div class="flex justify-center gap-5 ">
             <!-- ==> Active: bg-linear-to-r from-15%-black to-primary -->
             <div class="text-sm bg-gray-950 w-fit px-4 pb-7 relative rounded h-screen overflow-y-scroll scrollbar-thumb-primary scrollbar-thin">
-                    <!-- top: -28px; -->
-    <!-- padding-top: 11px; -->
+
                 <div class="s-f-container sticky top-0 z-10 pt-2.5 bg-gray-950">
                     <!-- ==================== Search -->
-                    <div class="border-2 border-secondary w-full rounded px-2 py-0.5 my-3.5 mx-auto">
+                    <div class="border-2 border-secondary flex items-center w-full rounded px-2 py-0.5 my-3.5 mx-auto">
                         <input id="search" placeholder="Search a channel" class="border-0 outline-none text-gray-400 w-full p-1">
-                            <i class="fas fa-search text-secondary"></i>
-                        </div>
+                        <i class="fas fa-search text-secondary text-[20px]"></i>
+
+                    </div>
                     <!-- ==================== Filter -->
     
                     <select class="w-92.5 mb-3 p-1.5 rounded bg-black text-white outline-none" id="categories">
@@ -57,15 +57,18 @@
                 </table>
                
             </div>
-            <div class="bg-gray-950 px-4 py-7 rounded w-112.5">
+            <!-- =================================== Channel Info ================ -->
+            <div class="bg-gray-950 px-4 py-7 rounded w-112.5 h-fit">
                 <p class="text-2xl font-bold text-center mb-3">Channel Player <i class="fas fa-play-circle"></i></p>
-                <div class="player mx-auto border-2 border-gray-900 w-80 h-40 flex justify-center items-center">
-                    <span class=""><i class="fas fa-video-slash"></i> No Channel is live</span>
+                <div id="player" class="mx-auto border-2 border-gray-900 w-100 h-70 flex justify-center items-center">
+                    <span id="empty-player"><i class="fas fa-video-slash"></i> No Channel is live</span>
+                    <video class="hidden border border-primary rounded  w-100 h-full" controls src="" ></video>
                 </div>
+
 
                 <hr class="text-gray-900 my-9">
 
-                <div class="chan-info">
+                <div id="chan-info">
                     <p class="text-[20px] font-bold pb-2.5">Channel Info</p>
 
                     <div class="border border-secondary rounded">
@@ -73,22 +76,22 @@
                         <table class="w-full">
                             <tbody>
                                 <tr>
-                                    <td class="p-2">Name</td><td class="text-gray-700">DE - RHEIN DOKU FHD</td>
+                                    <td class="p-2">Name</td><td id="name" class="text-gray-700">DE - RHEIN DOKU FHD</td>
                                 </tr>
                                 <tr>
-                                    <td class="p-2">Program</td><td class="text-gray-700">Breaking News</td>
+                                    <td class="p-2">Program</td><td id="program" class="text-gray-700">Breaking News</td>
                                 </tr>
                                 <tr>
-                                    <td class="p-2">Number</td><td class="text-gray-700">1153</td>
+                                    <td class="p-2">Number</td><td id="number" class="text-gray-700">1153</td>
                                 </tr>
                                 <tr>
-                                    <td class="p-2">Country</td><td class="text-gray-700">DE</td>
+                                    <td class="p-2">Country</td><td id="country" class="text-gray-700">DE</td>
                                 </tr>
                                 <tr>
-                                    <td class="p-2">Start time</td><td class="text-gray-700">21:02</td>
+                                    <td class="p-2">Start time</td><td id="s-time" class="text-gray-700">21:02</td>
                                 </tr>
                                 <tr>
-                                    <td class="p-2">Start end</td><td class="text-gray-700">21:57</td>
+                                    <td class="p-2">Start end</td><td id="e-time" class="text-gray-700">21:57</td>
                                 </tr>
                             </tbody>
                         </table>

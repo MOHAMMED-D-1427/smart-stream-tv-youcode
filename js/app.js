@@ -1,16 +1,18 @@
 import { getChannels } from "../services/api.js";
 import { filterChannels } from "./filter.js";
 import { searchChannels } from "./search.js";
-import { showChannels } from "./ui.js";
+import { showChannelInfo, showChannels } from "./ui.js";
 
 const channels = JSON.parse(localStorage.getItem("channels"));
 
 
 
-getChannels()
+getChannels();
 
-showChannels(channels)
+showChannels(channels);
 
-searchChannels()
+searchChannels();
 
-filterChannels()
+filterChannels();
+
+showChannelInfo(channels);

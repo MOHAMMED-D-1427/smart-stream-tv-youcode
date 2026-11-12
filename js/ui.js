@@ -1,5 +1,5 @@
 
-const channels = JSON.parse(localStorage.getItem("channels"));
+// const channels = JSON.parse(localStorage.getItem("channels"));
 
 const chansContainer = document.querySelector("#channels");
 
@@ -8,7 +8,7 @@ function showChannels(data){
     chansContainer.innerHTML = ""
     data.forEach(ch =>{
         chansContainer.innerHTML += `
-        <tr class="border-b border-gray-900 px-1 chan-hover" data-id="${ch.id}">
+        <tr class="channel border-b border-gray-900 px-1 chan-hover" data-id="${ch.id}">
             <td>&nbsp; ${ch.channelNumber}</td><td><img src="${ch.logo}" alt="Channel Logo" class="w-12.75"></td><td>${ch.name}</td>
         </tr>
         `
@@ -18,15 +18,46 @@ function showChannels(data){
     }
 }
 
-// Category	Channels
-// SPORT	21
-// CINEMA	17
-// INFO	14
-// DIVERTISSEMENT	13
-// DOCUMENTAIRE	11
-// ENFANTS	9
-// SERIES	9
-// CULTURE	5
-// RELIGION	1
+const video = document.querySelector("#player video");
+const player = document.querySelector("#player");
+const emptyPlayer = document.querySelector("#player #empty-player");
 
-export {showChannels}
+const chanInfo = document.querySelector("#chan-info");
+
+const name = chanInfo.querySelector("#name");
+const program = chanInfo.querySelector("#program");
+const number = chanInfo.querySelector("#number");
+const country = chanInfo.querySelector("#country");
+const starts = chanInfo.querySelector("#s-time");
+const ends = chanInfo.querySelector("#e-time");
+
+
+function showChannelInfo(data){
+    document.addEventListener("click", (e)=>{
+
+        if(e.target.closest(".channel")){
+            const id = e.target.closest(".channel").dataset.id;
+            
+            const filtered = data.find(ch => ch.id == id);
+            console.log(filtered)
+       
+            name.textContent = filtered.name;
+            country.textContent = filtered.country;
+            number.textContent = filtered.channelNumber;
+            program.textContent = filtered.epg.currentProgram;
+            starts.textContent = filtered.epg.startTime;
+            ends.textContent = filtered.epg.endTime;
+            // player.style.backgroundImage = `url(${filtered.logo})`
+            console.log(player)
+            video.classList.remove("hidden");
+            video.src = filtered.streamUrl;
+            emptyPlayer.classList.add("hidden")
+            player.classList.remove("border-2")
+            // ===> Search For: Unified Streaming
+    // "previewImage":
+        }
+    });
+}
+
+
+export {showChannels, showChannelInfo}
