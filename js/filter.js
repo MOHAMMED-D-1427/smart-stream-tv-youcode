@@ -10,7 +10,7 @@ export function filterChannels(){
     cat.addEventListener("click", (e)=>{
         console.log(e.target.value)
         filtered = channels.filter(ch => 
-            ch.category == e.target.value
+            ch.category.includes(e.target.value)
         )
         console.log(filtered)
         showChannels(filtered);
