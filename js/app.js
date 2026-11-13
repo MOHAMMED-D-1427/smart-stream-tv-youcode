@@ -9,7 +9,7 @@ import { showChannelInfo, showChannels, someClickEvents } from "./ui.js";
 
 getChannels();
 
-showChannels(await getChannels());
+// showChannels(await getChannels());
 
 searchChannels();
 

@@ -13,12 +13,18 @@
     <title>Smart Stream TV</title>
 </head>
 <body class="bg-black text-gray-300 relative">
+    <!-- ================== HTTP Errors -->
     <span id="http-error" class="hidden items-center gap-1.5 font-bold  fixed z-20 top-0 right-0 m-3 text-[#ff0000f5] bg-[#3700ff24] py-1 px-2 border-2 border-primary rounded">
-        </span>
-        
-            <!--        display: flex;
-    align-items: center;
-    gap: 5px; -->
+    </span>
+    <!-- ================== Loeading Icon -->
+     <div id="loading" class="backdrop-brightness-35 fixed top-0 hidden justify-center z-11 w-full h-full ">
+        <img src="assets/satellite.svg" class="w-16.75" alt="Loading">
+     </div>
+    <!-- z-index: 11;
+        display: flex;
+        top: 0;
+        justify-content: center; -->
+
     <header class="w-11/12 mx-auto mt-2.5">
         <!-- <p class="text-primary font-bold">Smart Stream TV</p> -->
          <img src="assets/Smart Stream TV Logo.png" alt="Website logo" class="w-37.5">
