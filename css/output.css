@@ -308,6 +308,9 @@
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
   }
+  .contents {
+    display: contents;
+  }
   .flex {
     display: flex;
   }
