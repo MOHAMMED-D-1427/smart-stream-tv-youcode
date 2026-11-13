@@ -1,10 +1,10 @@
 
-// const channels = JSON.parse(localStorage.getItem("channels"));
-
 const chansContainer = document.querySelector("#channels");
 
 
-function showChannels(data){
+async function showChannels(data){
+    // const data = await channels()
+    // console.log(data)
     chansContainer.innerHTML = ""
     data.forEach(ch =>{
         chansContainer.innerHTML += `
@@ -39,8 +39,8 @@ function showChannelInfo(data){
             const id = e.target.closest(".channel").dataset.id;
             
             const filtered = data.find(ch => ch.id == id);
-            console.log(filtered)
-       
+            // console.log(filtered)
+        
             name.textContent = filtered.name;
             country.textContent = filtered.country;
             number.textContent = filtered.channelNumber;
@@ -48,7 +48,7 @@ function showChannelInfo(data){
             starts.textContent = filtered.epg.startTime;
             ends.textContent = filtered.epg.endTime;
             // player.style.backgroundImage = `url(${filtered.logo})`
-            console.log(player)
+            // console.log(player)
             video.classList.remove("hidden");
             video.src = filtered.streamUrl;
             emptyPlayer.classList.add("hidden")
@@ -59,5 +59,13 @@ function showChannelInfo(data){
     });
 }
 
+function someClickEvents(){
+    const reload = document.querySelector(".fa-rotate-right")
+    console.log(reload)
+    reload.addEventListener("click", ()=>{
+        location.reload();
+    })
+}
 
-export {showChannels, showChannelInfo}
+
+export {showChannels, showChannelInfo, someClickEvents}
