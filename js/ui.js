@@ -61,6 +61,9 @@ function showChannelInfo(data){
     });
 }
 
+const sideBar = document.querySelector("#side-bar");
+
+
 function someClickEvents(){
     
     document.addEventListener("click", (e)=>{
@@ -76,6 +79,12 @@ function someClickEvents(){
                 
             }
             e.target.closest(".channel").classList.add("active")
+        }
+
+        if(e.target.closest("#side-bar-btn")){
+            sideBar.classList.toggle("-left-[100%]")
+            sideBar.classList.toggle("left-0")
+            console.log("GH")
         }
     })
 }
