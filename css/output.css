@@ -8,6 +8,7 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-700: oklch(50.5% 0.213 27.518);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-700: oklch(37.3% 0.034 259.733);
@@ -202,23 +203,35 @@
   .top-0 {
     top: 0px;
   }
+  .top-2 {
+    top: calc(var(--spacing) * 2);
+  }
   .top-37 {
     top: calc(var(--spacing) * 37);
   }
-  .top-37\.5 {
-    top: calc(var(--spacing) * 37.5);
+  .right-0 {
+    right: 0px;
   }
-  .top-\[-2\] {
-    top: -2;
+  .right-2 {
+    right: calc(var(--spacing) * 2);
   }
-  .top-\[-28px\] {
-    top: -28px;
+  .right-2\.5 {
+    right: calc(var(--spacing) * 2.5);
   }
-  .top-\[150px\] {
-    top: 150px;
+  .left-2 {
+    left: calc(var(--spacing) * 2);
+  }
+  .left-2\.5 {
+    left: calc(var(--spacing) * 2.5);
   }
   .z-10 {
     z-index: 10;
+  }
+  .z-20 {
+    z-index: 20;
+  }
+  .m-3 {
+    margin: calc(var(--spacing) * 3);
   }
   .mx-auto {
     margin-inline: auto;
@@ -340,9 +353,6 @@
   .w-120 {
     width: calc(var(--spacing) * 120);
   }
-  .w-\[200px\] {
-    width: 200px;
-  }
   .w-fit {
     width: fit-content;
   }
@@ -357,6 +367,9 @@
     opacity: 0.7;
     cursor: pointer;
     transition: 0.3s;
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .resize {
     resize: both;
@@ -373,6 +386,12 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-1 {
+    gap: var(--spacing);
+  }
+  .gap-1\.5 {
+    gap: calc(var(--spacing) * 1.5);
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
@@ -399,14 +418,44 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-\[\#8f0000\] {
+    border-color: #8f0000;
+  }
+  .border-\[\#640000\] {
+    border-color: #640000;
+  }
+  .border-\[\#6400005d\] {
+    border-color: #6400005d;
+  }
+  .border-\[\#ff00005d\] {
+    border-color: #ff00005d;
+  }
   .border-gray-900 {
     border-color: var(--color-gray-900);
   }
   .border-primary {
     border-color: var(--color-primary);
   }
+  .border-red-700 {
+    border-color: var(--color-red-700);
+  }
   .border-secondary {
     border-color: var(--color-secondary);
+  }
+  .bg-\[\#3700ff24\] {
+    background-color: #3700ff24;
+  }
+  .bg-\[\#eee\] {
+    background-color: #eee;
+  }
+  .bg-\[\#f00\] {
+    background-color: #f00;
+  }
+  .bg-\[\#ff00005d\] {
+    background-color: #ff00005d;
+  }
+  .bg-\[\#ff000052\] {
+    background-color: #ff000052;
   }
   .bg-black {
     background-color: var(--color-black);
@@ -452,6 +501,9 @@
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
   }
+  .py-1 {
+    padding-block: var(--spacing);
+  }
   .py-7 {
     padding-block: calc(var(--spacing) * 7);
   }
@@ -487,6 +539,9 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-\[\#ff0000f5\] {
+    color: #ff0000f5;
   }
   .text-gray-300 {
     color: var(--color-gray-300);
@@ -524,6 +579,20 @@
   .outline-none {
     --tw-outline-style: none;
     outline-style: none;
+  }
+  @media (hover: hover) {
+    .hover\:bg-\[\#ff000052\]:hover {
+      background-color: #ff000052;
+    }
+    .hover\:bg-\[\#ffbaba52\]:hover {
+      background-color: #ffbaba52;
+    }
+    .hover\:opacity-85:hover {
+      opacity: 85%;
+    }
+    .hover\:opacity-90:hover {
+      opacity: 90%;
+    }
   }
 }
 @property --tw-scrollbar-thumb {
