@@ -1,13 +1,17 @@
+import { showChannels } from "../js/ui.js";
 
 let channels = null
 
 const errMsg = document.getElementById("http-error")
+const loading = document.getElementById("loading")
 
 async function getChannels(){
     if(channels != null){
         return channels;
     }
     try{
+        loading.classList.remove("hidden")
+        loading.classList.add("flex")
         const res = await fetch("https://6af5eb63f6270fa08d68de84.mockapi.io/api/channels");
         // const res = await fetch("../data/channels.json");
 
@@ -35,7 +39,9 @@ async function getChannels(){
         const data = await res.json();
         channels = data;
 
+        showChannels(channels)
         return channels
+
     }catch(err){
         if(err instanceof TypeError){
             errMsg.innerHTML = `<span><i class="fas fa-exclamation-triangle text-[#ff0000f5]"></i> Network error: check your internet connection and try again </span><i class="fa-solid fa-rotate-right bg-[#ff000052] p-1.5 border-2 border-red-700 rounded cursor-pointer hover:opacity-85"></i>`;
@@ -45,6 +51,11 @@ async function getChannels(){
         }else{
             console.log("Fetch Error: ", err.message)
         }
+        
+    }finally{
+        // ==================
+        loading.classList.add("hidden")
+        loading.classList.remove("flex")
     }
 }
 
