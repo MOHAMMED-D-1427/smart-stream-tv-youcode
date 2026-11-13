@@ -61,11 +61,31 @@ function showChannelInfo(data){
     });
 }
 
+const sideBar = document.querySelector("#side-bar");
+
+
 function someClickEvents(){
+    
     document.addEventListener("click", (e)=>{
+        
         if(e.target.classList.contains("fa-rotate-right")) location.reload();
         // const reload = document.querySelector(".fa-rotate-right")
         
+        if(e.target.closest(".channel")){
+            const channels = document.querySelectorAll(".channel");
+            
+            for(let ch of channels){
+                ch.classList.remove("active")
+                
+            }
+            e.target.closest(".channel").classList.add("active")
+        }
+
+        if(e.target.closest("#side-bar-btn")){
+            sideBar.classList.toggle("-left-[100%]")
+            sideBar.classList.toggle("left-0")
+            console.log("GH")
+        }
     })
 }
 
