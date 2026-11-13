@@ -659,6 +659,9 @@
     --tw-outline-style: none;
     outline-style: none;
   }
+  .active {
+    background: linear-gradient(45deg, black 34%, #2d00cf);
+  }
   @media (hover: hover) {
     .hover\:bg-\[\#ff000052\]:hover {
       background-color: #ff000052;

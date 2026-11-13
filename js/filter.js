@@ -5,7 +5,7 @@ import { showChannels } from "./ui.js";
 const cat = document.querySelector("#categories")
 
 let filtered = [];
-
+// Regarding those who don't know what we put in the Documentation, this is the right form ⬇️(Coach recommendation)  
 export function filterChannels(){
     
     cat.addEventListener("click", async (e)=>{

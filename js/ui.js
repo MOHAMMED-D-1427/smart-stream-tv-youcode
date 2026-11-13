@@ -62,10 +62,21 @@ function showChannelInfo(data){
 }
 
 function someClickEvents(){
+    
     document.addEventListener("click", (e)=>{
+        
         if(e.target.classList.contains("fa-rotate-right")) location.reload();
         // const reload = document.querySelector(".fa-rotate-right")
         
+        if(e.target.closest(".channel")){
+            const channels = document.querySelectorAll(".channel");
+            
+            for(let ch of channels){
+                ch.classList.remove("active")
+                
+            }
+            e.target.closest(".channel").classList.add("active")
+        }
     })
 }
 
